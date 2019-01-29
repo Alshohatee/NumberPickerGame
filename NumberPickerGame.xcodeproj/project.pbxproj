@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5053244C2200C8B500EB01CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053244B2200C8B500EB01CE /* AppDelegate.swift */; };
+		5053244E2200C8B500EB01CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053244D2200C8B500EB01CE /* ViewController.swift */; };
+		505324512200C8B500EB01CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5053244F2200C8B500EB01CE /* Main.storyboard */; };
+		505324532200C8B600EB01CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505324522200C8B600EB01CE /* Assets.xcassets */; };
+		505324562200C8B600EB01CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505324542200C8B600EB01CE /* LaunchScreen.storyboard */; };
+		505324612200C8B600EB01CE /* NumberPickerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505324602200C8B600EB01CE /* NumberPickerGameTests.swift */; };
+		5053246C2200C8B600EB01CE /* NumberPickerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053246B2200C8B600EB01CE /* NumberPickerGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5053245D2200C8B600EB01CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505324402200C8B500EB01CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505324472200C8B500EB01CE;
+			remoteInfo = NumberPickerGame;
+		};
+		505324682200C8B600EB01CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505324402200C8B500EB01CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505324472200C8B500EB01CE;
+			remoteInfo = NumberPickerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		505324482200C8B500EB01CE /* NumberPickerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberPickerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5053244B2200C8B500EB01CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5053244D2200C8B500EB01CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		505324502200C8B500EB01CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		505324522200C8B600EB01CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		505324552200C8B600EB01CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		505324572200C8B600EB01CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5053245C2200C8B600EB01CE /* NumberPickerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberPickerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505324602200C8B600EB01CE /* NumberPickerGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPickerGameTests.swift; sourceTree = "<group>"; };
+		505324622200C8B600EB01CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505324672200C8B600EB01CE /* NumberPickerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberPickerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5053246B2200C8B600EB01CE /* NumberPickerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPickerGameUITests.swift; sourceTree = "<group>"; };
+		5053246D2200C8B600EB01CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505324452200C8B500EB01CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505324592200C8B600EB01CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505324642200C8B600EB01CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5053243F2200C8B500EB01CE = {
+			isa = PBXGroup;
+			children = (
+				5053244A2200C8B500EB01CE /* NumberPickerGame */,
+				5053245F2200C8B600EB01CE /* NumberPickerGameTests */,
+				5053246A2200C8B600EB01CE /* NumberPickerGameUITests */,
+				505324492200C8B500EB01CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505324492200C8B500EB01CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505324482200C8B500EB01CE /* NumberPickerGame.app */,
+				5053245C2200C8B600EB01CE /* NumberPickerGameTests.xctest */,
+				505324672200C8B600EB01CE /* NumberPickerGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5053244A2200C8B500EB01CE /* NumberPickerGame */ = {
+			isa = PBXGroup;
+			children = (
+				5053244B2200C8B500EB01CE /* AppDelegate.swift */,
+				5053244D2200C8B500EB01CE /* ViewController.swift */,
+				5053244F2200C8B500EB01CE /* Main.storyboard */,
+				505324522200C8B600EB01CE /* Assets.xcassets */,
+				505324542200C8B600EB01CE /* LaunchScreen.storyboard */,
+				505324572200C8B600EB01CE /* Info.plist */,
+			);
+			path = NumberPickerGame;
+			sourceTree = "<group>";
+		};
+		5053245F2200C8B600EB01CE /* NumberPickerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				505324602200C8B600EB01CE /* NumberPickerGameTests.swift */,
+				505324622200C8B600EB01CE /* Info.plist */,
+			);
+			path = NumberPickerGameTests;
+			sourceTree = "<group>";
+		};
+		5053246A2200C8B600EB01CE /* NumberPickerGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5053246B2200C8B600EB01CE /* NumberPickerGameUITests.swift */,
+				5053246D2200C8B600EB01CE /* Info.plist */,
+			);
+			path = NumberPickerGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505324472200C8B500EB01CE /* NumberPickerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505324702200C8B600EB01CE /* Build configuration list for PBXNativeTarget "NumberPickerGame" */;
+			buildPhases = (
+				505324442200C8B500EB01CE /* Sources */,
+				505324452200C8B500EB01CE /* Frameworks */,
+				505324462200C8B500EB01CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberPickerGame;
+			productName = NumberPickerGame;
+			productReference = 505324482200C8B500EB01CE /* NumberPickerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5053245B2200C8B600EB01CE /* NumberPickerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505324732200C8B600EB01CE /* Build configuration list for PBXNativeTarget "NumberPickerGameTests" */;
+			buildPhases = (
+				505324582200C8B600EB01CE /* Sources */,
+				505324592200C8B600EB01CE /* Frameworks */,
+				5053245A2200C8B600EB01CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5053245E2200C8B600EB01CE /* PBXTargetDependency */,
+			);
+			name = NumberPickerGameTests;
+			productName = NumberPickerGameTests;
+			productReference = 5053245C2200C8B600EB01CE /* NumberPickerGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		505324662200C8B600EB01CE /* NumberPickerGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505324762200C8B600EB01CE /* Build configuration list for PBXNativeTarget "NumberPickerGameUITests" */;
+			buildPhases = (
+				505324632200C8B600EB01CE /* Sources */,
+				505324642200C8B600EB01CE /* Frameworks */,
+				505324652200C8B600EB01CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505324692200C8B600EB01CE /* PBXTargetDependency */,
+			);
+			name = NumberPickerGameUITests;
+			productName = NumberPickerGameUITests;
+			productReference = 505324672200C8B600EB01CE /* NumberPickerGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505324402200C8B500EB01CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Aseel Alshohatee";
+				TargetAttributes = {
+					505324472200C8B500EB01CE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5053245B2200C8B600EB01CE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 505324472200C8B500EB01CE;
+					};
+					505324662200C8B600EB01CE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 505324472200C8B500EB01CE;
+					};
+				};
+			};
+			buildConfigurationList = 505324432200C8B500EB01CE /* Build configuration list for PBXProject "NumberPickerGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5053243F2200C8B500EB01CE;
+			productRefGroup = 505324492200C8B500EB01CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505324472200C8B500EB01CE /* NumberPickerGame */,
+				5053245B2200C8B600EB01CE /* NumberPickerGameTests */,
+				505324662200C8B600EB01CE /* NumberPickerGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505324462200C8B500EB01CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505324562200C8B600EB01CE /* LaunchScreen.storyboard in Resources */,
+				505324532200C8B600EB01CE /* Assets.xcassets in Resources */,
+				505324512200C8B500EB01CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5053245A2200C8B600EB01CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505324652200C8B600EB01CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505324442200C8B500EB01CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5053244E2200C8B500EB01CE /* ViewController.swift in Sources */,
+				5053244C2200C8B500EB01CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505324582200C8B600EB01CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505324612200C8B600EB01CE /* NumberPickerGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505324632200C8B600EB01CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5053246C2200C8B600EB01CE /* NumberPickerGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5053245E2200C8B600EB01CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505324472200C8B500EB01CE /* NumberPickerGame */;
+			targetProxy = 5053245D2200C8B600EB01CE /* PBXContainerItemProxy */;
+		};
+		505324692200C8B600EB01CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505324472200C8B500EB01CE /* NumberPickerGame */;
+			targetProxy = 505324682200C8B600EB01CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5053244F2200C8B500EB01CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505324502200C8B500EB01CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		505324542200C8B600EB01CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505324552200C8B600EB01CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5053246E2200C8B600EB01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5053246F2200C8B600EB01CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505324712200C8B600EB01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49LC2U8GDY;
+				INFOPLIST_FILE = NumberPickerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alshohateeaseel-gmail.com.NumberPickerGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		505324722200C8B600EB01CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49LC2U8GDY;
+				INFOPLIST_FILE = NumberPickerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alshohateeaseel-gmail.com.NumberPickerGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		505324742200C8B600EB01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49LC2U8GDY;
+				INFOPLIST_FILE = NumberPickerGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alshohateeaseel-gmail.com.NumberPickerGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberPickerGame.app/NumberPickerGame";
+			};
+			name = Debug;
+		};
+		505324752200C8B600EB01CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49LC2U8GDY;
+				INFOPLIST_FILE = NumberPickerGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alshohateeaseel-gmail.com.NumberPickerGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberPickerGame.app/NumberPickerGame";
+			};
+			name = Release;
+		};
+		505324772200C8B600EB01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49LC2U8GDY;
+				INFOPLIST_FILE = NumberPickerGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alshohateeaseel-gmail.com.NumberPickerGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberPickerGame;
+			};
+			name = Debug;
+		};
+		505324782200C8B600EB01CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49LC2U8GDY;
+				INFOPLIST_FILE = NumberPickerGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alshohateeaseel-gmail.com.NumberPickerGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberPickerGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505324432200C8B500EB01CE /* Build configuration list for PBXProject "NumberPickerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5053246E2200C8B600EB01CE /* Debug */,
+				5053246F2200C8B600EB01CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505324702200C8B600EB01CE /* Build configuration list for PBXNativeTarget "NumberPickerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505324712200C8B600EB01CE /* Debug */,
+				505324722200C8B600EB01CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505324732200C8B600EB01CE /* Build configuration list for PBXNativeTarget "NumberPickerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505324742200C8B600EB01CE /* Debug */,
+				505324752200C8B600EB01CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505324762200C8B600EB01CE /* Build configuration list for PBXNativeTarget "NumberPickerGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505324772200C8B600EB01CE /* Debug */,
+				505324782200C8B600EB01CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 505324402200C8B500EB01CE /* Project object */;
+}
